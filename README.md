@@ -37,7 +37,7 @@ As my mom's shop grew, she found it increasingly difficult to manage everything 
 ### 🚀 Installation
 
 1. Clone this repository:
-   `git clone https://github.com/yourusername/moms-shop-manager.git`
+   `git clone https://github.com/GitMaster254/TailoringShop.git`
 
 2. Open the project in **Android Studio**.
 
@@ -58,7 +58,3 @@ This project is all about making life easier for my mom, but I’m open to impro
 This app is built with love for my mom. Every line of code is aimed at making her work easier and her business more organized. ❤️ I’m excited to see where this project goes, and I hope it helps her run her shop smoothly.
 
 Thanks for checking out the project! ✨
-
----
-
-Feel free to adjust the tech stack if you're using something different, like another database or authentication method! Let me know if you'd like further adjustments.
