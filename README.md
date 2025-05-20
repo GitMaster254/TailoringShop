@@ -1,8 +1,4 @@
-Got it! Here's an updated README file for your project, tailored for Kotlin and Android Studio:
-
----
-
-# 📱 Mom's Shop Manager - Android App
+ 📱 Mom's Shop Manager - Android App
 
 Welcome to **Mom's Shop Manager**, an Android app built with Kotlin to help my mom manage her shop efficiently. This app helps her track inventory, record sales, generate daily reports, and more. It’s designed to simplify her daily operations and make her business life a little bit easier.
 
