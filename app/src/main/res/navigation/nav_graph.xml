@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.tailoringshop.ui.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/sellItemFragment"
+        android:name="com.example.tailoringshop.ui.SellItemFragment"
+        android:label="Sell Item" />
+
+    <fragment
+        android:id="@+id/viewStockFragment"
+        android:name="com.example.tailoringshop.ui.ViewStockFragment"
+        android:label="View Stock" />
+
+    <fragment
+        android:id="@+id/updateStockFragment"
+        android:name="com.example.tailoringshop.ui.UpdateStockFragment"
+        android:label="Update Stock" />
+
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.example.tailoringshop.ui.DailyReportFragment"
+        android:label="Report" />
+</navigation>

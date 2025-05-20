@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/sellTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sell Item"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp" />
+
+        <!-- Item Category Spinner -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Category" />
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Dynamic Inputs (based on category) -->
+        <EditText
+            android:id="@+id/itemNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Name" />
+
+        <EditText
+            android:id="@+id/itemSizeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Size (e.g. 1 inch)" />
+
+        <EditText
+            android:id="@+id/itemColorInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Color (optional)" />
+
+        <EditText
+            android:id="@+id/itemQuantityInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/itemPriceInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price (Ksh)"
+            android:inputType="numberDecimal" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveSellButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Sale"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

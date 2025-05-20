@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Stock"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp" />
+
+        <!-- Category Spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Category" />
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Item Name -->
+        <EditText
+            android:id="@+id/itemNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Name" />
+
+        <!-- Size -->
+        <EditText
+            android:id="@+id/itemSizeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Size (e.g. Small, 10cm)" />
+
+        <!-- Quantity -->
+        <EditText
+            android:id="@+id/itemQuantityInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Quantity"
+            android:inputType="number" />
+
+        <!-- Update Button -->
+        <Button
+            android:id="@+id/updateStockButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Stock"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

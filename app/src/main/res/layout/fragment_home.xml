@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/homeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tailoring Shop Manager"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <!-- Buttons for actions -->
+    <Button
+        android:id="@+id/sellItemButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sell Item" />
+
+    <Button
+        android:id="@+id/viewStockButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Stock"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/updateStockButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Stock"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/dailyReportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Report"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

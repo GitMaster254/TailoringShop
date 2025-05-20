@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tailoring Shop</string>
+    <string name ="sale_item_format"> %1$s: %2$s (%3$) - %4$d pcs @Ksh %5$.2f
+        = ksh %6%.2f
+    </string>
+    <string name="total_sales_format">Total sales: Ksh %1$.2f</string>
+</resources>
